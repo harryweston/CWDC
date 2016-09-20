@@ -1,3 +1,6 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
 
 #container {
     width: 90%;
@@ -21,6 +24,10 @@ h1 a{
 #searchbox {
     float: right;
     background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    background: -ie-linear-gradient(#E4F2B9, #B7E953);
     width: 40%;
     height: 40%;
     padding: 2% 1.5% 0 1.5%;
@@ -42,6 +49,7 @@ h1 a{
     color:#E38A0C;
     font-weight: bold;
     background: white url(images/search.png) right center no-repeat;
+    border: 2px solid #2dd13a;
 }
 
 #submit {
@@ -60,6 +68,10 @@ h1 a{
 #menu{
     height: 40px;
     background: linear-gradient(#F8F594, #fce53c);
+     background: -webkit-linear-gradient(#F8F594, #fce53c);
+     background: -o-linear-gradient(#F8F594, #fce53c);
+     background: -moz-linear-gradient(#F8F594, #fce53c);
+     background: -ie-linear-gradient(#F8F594, #fce53c);
     padding: 2% 0;
     
         
@@ -105,6 +117,10 @@ ul{
 
 #introduction{
     background: linear-gradient(#E4F2B9, #B7E953);
+    background: -webkit-linear-gradient(#E4F2B9, #B7E953);
+    background: -o-linear-gradient(#E4F2B9, #B7E953);
+    background: -moz-linear-gradient(#E4F2B9, #B7E953);
+    background: -ie-linear-gradient(#E4F2B9, #B7E953);
     padding: 2%;
     margin: 2%;
 }
@@ -173,4 +189,23 @@ ul{
 
 #rightsidebar{
     float:right;
+}
+
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F396, #D5D533);
+    background: -webkit-linear-gradient(#F6F396, #D5D533);
+    background: -o-linear-gradient(#F6F396, #D5D533);
+    background: -moz-linear-gradient(#F6F396, #D5D533);
+    background: -ie-linear-gradient(#F6F396, #D5D533);
+}
+
+.footer p{
+    padding: 2% 2%;
+    
+}
+
+.arthur{
+    padding: 1% 5%;
 }
