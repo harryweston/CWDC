@@ -1,7 +1,7 @@
 
 #container {
     width: 90%;
-    border: 1px solid grey;
+/*    border: 1px solid grey; */
     height: auto;
    
     margin: 0 auto;
@@ -102,3 +102,23 @@ ul{
     color: #B314DB;
     
 }
+
+#introduction{
+    background: linear-gradient(#E4F2B9, #B7E953);
+    padding: 2%;
+    margin: 2%;
+}
+
+#introduction h3{
+    font-size: 200%;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 120%;
+    color: #628F19;
+    text-align: justify;
+}
+
+
